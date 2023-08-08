@@ -23,7 +23,7 @@ class ViewController: UIViewController, UISearchResultsUpdating {
         super.viewDidLoad()
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Поиск"
+        searchController.searchBar.placeholder = "Search"
         navigationItem.searchController = searchController
         setupScene()
         makeConstraints()
